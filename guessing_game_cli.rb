@@ -12,7 +12,7 @@ def run_guessing_game
   answer = get_num
   prompt_user
   guess = gets.chomp
-  guess.to_I
+  guess = guess.to_I
   
   if guess == answer then
     puts "You guessed the correct number!"
