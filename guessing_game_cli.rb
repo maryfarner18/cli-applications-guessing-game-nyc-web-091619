@@ -10,7 +10,7 @@ end
 
 def run_guessing_game
   answer = get_num
-  prompt_user
+  #prompt_user
   guess = gets.chomp
   
   if guess == answer then
