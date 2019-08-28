@@ -9,7 +9,7 @@ end
 
 
 def run_guessing_game
-  answer = get_num + ""
+  answer = get_num.to_s
   #prompt_user
   guess = gets.chomp
   
