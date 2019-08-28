@@ -1,5 +1,5 @@
 def get_num
-  rand(6) + 1 
+  rand(6) + 1
 end
 
 def prompt_user
