@@ -9,15 +9,18 @@ end
 
 
 def run_guessing_game
-  answer = get_num
+  answer = get_num + ""
   #prompt_user
   guess = gets.chomp
-  guess = guess.to_i
   
-  if guess == answer then
-    puts "You guessed the correct number!"
-  elsif guess == "exit" then
+  
+  if guess == "exit" then
     puts "Goodbye!"
+  else
+  end
+  guess == answer then
+    puts "You guessed the correct number!"
+  elsif 
   else
     puts "Sorry! The computer guessed #{answer}."
   end
